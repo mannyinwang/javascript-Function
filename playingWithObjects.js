@@ -10,13 +10,13 @@ var users = [
 // How would you print/log the name and age of each user using a for loop?  
 
 // Solution
-// 1
+// Solution 1 John's age
 console.log(users[1].age);
 
-// 2
+// Solution 2 Name of first Object
 console.log(users[0].name);
 
-// 3
+// Solution 3 Name and Age of each User
 for(var user in users){
     console.log(users[user].name +" - "+ users[user].age);
 }
